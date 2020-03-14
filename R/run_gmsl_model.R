@@ -53,8 +53,8 @@ model{
   tpred[i] ~ dnorm(theta_mu,sigma_mu^-2)
   }
   
-  sigma_y ~ dunif(0, 10)
-  sigma_mu ~ dt(0, 2^-2, 4)T(0,)
+  sigma_y ~ dt(0, 2.5^-2, 1)T(0,)
+  sigma_mu ~ dt(0, 2.5^-2, 1)T(0,)
   theta_mu ~ dnorm(0,0.001)
   
 }

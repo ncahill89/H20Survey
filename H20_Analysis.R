@@ -38,8 +38,8 @@ run_gmsl_model(select_scenario = "Red",
 #### Plot the PDF for GMSL
 #### If the relevant PDF data is not in the results folder (saved there from previous step) then this won't work. 
 plot_PDF(select_year = 2100,
-         select_scenario = "Blue",
-         survey = "H14")
+         select_scenario = "Red",
+         survey = "H20")
 
 #### Find the exceedence probability for a given gmsl value
 get_exceedence_prob(select_year = 2100,
